@@ -1,0 +1,20 @@
+
+version: 2
+
+sources:
+  - name: TA_2_G3
+    database: clasemina
+    tables:
+      - name: Olimpica
+        description: "The primary key for this table"
+      - name: Exito
+        description: "Si"
+      - name: Compras
+        description: "Claro que si"
+      - name: imputacion
+        description: "SI SI SI"
+      - name: Clientes
+        description: "NO"
+
+
+
