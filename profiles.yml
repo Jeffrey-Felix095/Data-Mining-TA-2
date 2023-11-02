@@ -1,0 +1,14 @@
+dbt-actividad3: 
+  outputs:
+    dev:
+      dataset: TA_2_G3
+      job_execution_timeout_seconds: 1200
+      job_retries: 1
+      keyfile: C:\Users\MICHELLE GUTIERREZ\Documents\dbt\Data-Mining-TA-2-main\TA_2_G3\clasemina-dba216c4fafe.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: clasemina
+      threads: 1
+      type: bigquery
+  target: dev
