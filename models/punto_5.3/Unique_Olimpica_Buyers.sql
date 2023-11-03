@@ -7,4 +7,4 @@ WHERE NOT EXISTS (
   FROM {{ source("TA_2_G3","Compras")}} as com
   WHERE com.cliente = cli.C__digo
   AND com.producto like "EXI%"
-);
+)
